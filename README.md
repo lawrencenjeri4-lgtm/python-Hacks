@@ -1,252 +1,215 @@
-🐍 Python Hacks
+<div align="center">
 
-<div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&width=700&lines=Python+Automation+%26+Cybersecurity;Educational+Security+Toolkit;Learn+•+Build+•+Explore" /><br>"Python" (https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-"OS" (https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge)
-"License" (https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-"Contributions" (https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
+<img src="assets/banner.png" width="100%">
 
-A collection of Python scripts for automation, cybersecurity awareness, OSINT, and productivity.
+# 🐍 Python Hacks
 
-</div>---
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1000&color=00FF88&center=true&vCenter=true&width=700&lines=Automation+%7C+Cybersecurity+%7C+OSINT;Educational+Python+Toolkit;Learn+%E2%80%A2+Build+%E2%80%A2+Explore;Open+Source+Project" />
 
-📖 Table of Contents
+<br>
 
-- Overview
-- Features
-- Project Structure
-- Installation
-- Platforms
-- Recommended Tools
-- Usage
-- Learning Path
-- Screenshots
-- Disclaimer
-- Contributing
-- License
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Supported-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-Supported-0078D6?style=for-the-badge&logo=windows)
+![License](https://img.shields.io/github/license/YOUR_USERNAME/python-Hacks?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/python-Hacks?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/python-Hacks?style=for-the-badge)
+
+</div>
 
 ---
 
-🚀 Overview
+# ⚡ About
 
-Python Hacks is a collection of beginner-friendly Python projects designed to help you explore:
+Python Hacks is an educational collection of Python projects covering:
 
-- 🛡️ Cybersecurity
+- 🛡 Cybersecurity Awareness
 - 🤖 Automation
 - 🔍 OSINT
-- 🌐 Web Utilities
-- 🧠 Python Programming
+- 🌐 Networking
+- 📄 OCR
+- 🔐 Security Utilities
+- 📱 Productivity Scripts
 
-Every project is meant to help you learn real-world Python while understanding defensive cybersecurity concepts.
-
----
-
-✨ Features
-
-Tool| Description
-🔗 Fake URL Detector| Detect phishing and suspicious URLs
-🔐 OTP Generator| Generate secure One-Time Passwords
-📱 WhatsApp Automation| Automate WhatsApp messaging
-🎤 Voice to Text| Convert speech into text
-📷 QR Generator| Generate QR Codes
-📄 OCR Web App| Extract text from images
-🖥️ Active Window Monitor| Display the current active application
-📊 Data Collection| Practice Python data handling
+Perfect for students, beginners and anyone learning Python for cybersecurity.
 
 ---
 
-📂 Project Structure
+# ✨ Included Projects
 
-Python-Hacks/
+| Project | Description |
+|---------|-------------|
+| 🔗 Fake URL Detector | Detect suspicious or phishing links |
+| 🔐 OTP Generator | Secure One-Time Password Generator |
+| 📱 WhatsApp Automation | Send WhatsApp messages automatically |
+| 🎤 Voice To Text | Convert speech into text |
+| 📷 QR Generator | Generate QR Codes |
+| 📄 OCR Web App | Extract text from images |
+| 🖥 Active Window Monitor | View active desktop window |
+| 📊 Data Collection | Learn Python data handling |
+
+---
+
+# 📂 Repository Structure
+
+```text
+Python-Hacks
 │
-├── automation/
-│   ├── WhatsappMessage.py
-│   ├── voiceToText.py
-│   └── qrGenrator.py
-│
-├── cybersecurity/
-│   ├── fakeURLDetector.py
-│   └── otpGenrator.py
-│
-├── web/
-│   └── OCRWepApp.html
-│
-├── assets/
-│   ├── banner.png
-│   ├── screenshots/
-│   └── demo.gif
-│
+├── fakeURLDetector.py
+├── otpGenrator.py
+├── qrGenrator.py
+├── WhatsappMessage.py
+├── voiceToText.py
+├── captcha.py
+├── ScreenWatching.py
+├── OCRWepApp.html
+├── dataCollection.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
 
 ---
 
-⚙️ Installation
+# 🚀 Installation
 
 Clone the repository
 
+```bash
 git clone https://github.com/YOUR_USERNAME/python-Hacks.git
+```
 
-Open the folder
+Enter the folder
 
+```bash
 cd python-Hacks
+```
 
 Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 Run any tool
 
+```bash
 python fakeURLDetector.py
-
-or
-
-python qrGenrator.py
+```
 
 ---
 
-💻 Supported Platforms
+# 💻 Supported Platforms
 
-Platform| Support
-🪟 Windows| ✅
-🐧 Linux| ✅
-🍎 macOS| ✅
-📱 Termux| ⚠️ Partial
-☁️ GitHub Codespaces| ✅
-☁️ Replit| ✅
-🚂 Railway| ⚠️
-🎈 Render| ⚠️
-🐳 Docker| ✅
-💻 Virtual Machine| ✅
+| Platform | Status |
+|----------|--------|
+| 🪟 Windows | ✅ |
+| 🐧 Linux | ✅ |
+| 🍎 macOS | ✅ |
+| 📱 Termux | ⚠ Partial |
+| ☁ GitHub Codespaces | ✅ |
+| 🐳 Docker | ✅ |
+| 🖥 Kali Linux | ⭐ Recommended |
 
 ---
 
-🛠️ Recommended Software
+# 🛠 Recommended Software
 
-Software| Purpose
-🐍 Python 3.10+| Run the scripts
-💻 VS Code| Code editor
-⚡ PyCharm| Python IDE
-🐧 Kali Linux| Security learning
-📦 Git| Version Control
-📡 Nmap| Network Scanning
-🔍 Wireshark| Packet Analysis
-📮 Postman| API Testing
-🐳 Docker| Containers
-💻 VirtualBox / VMware| Virtual Machines
+- Python 3.10+
+- Visual Studio Code
+- PyCharm
+- Git
+- Kali Linux
+- Wireshark
+- Nmap
+- Burp Suite Community
+- Docker
+- VirtualBox
 
 ---
 
-🎯 Usage
+# 📷 Screenshots
 
-Run any Python file individually.
+```
+assets/
+    screenshots/
+        fakeurl.png
+        qr.png
+        otp.png
+        voice.png
+```
 
 Example
 
-python fakeURLDetector.py
-
-python voiceToText.py
-
-python otpGenrator.py
+```markdown
+<img src="assets/screenshots/fakeurl.png" width="850">
+```
 
 ---
 
-🎓 Learning Topics
+# 🎯 Learning Topics
 
-This repository helps you practice:
+✅ Python Basics
 
-- Python Programming
-- Automation
-- Cybersecurity Awareness
-- Phishing Detection
-- QR Technology
-- OCR
-- APIs
-- Speech Recognition
-- Desktop Automation
-- OSINT Fundamentals
+✅ APIs
 
----
+✅ Automation
 
-📸 Screenshots
+✅ Cybersecurity
 
-Create a folder called:
+✅ OSINT
 
-assets/screenshots/
+✅ OCR
 
-Example:
+✅ QR Codes
 
-assets/screenshots/fakeurl.png
+✅ Networking
 
-assets/screenshots/qrcode.png
+✅ File Handling
 
-assets/screenshots/voice.png
-
-Then display them:
-
-<img src="assets/screenshots/fakeurl.png" width="700">
+✅ Speech Recognition
 
 ---
 
-🔄 Workflow
+# ⚠ Disclaimer
 
-Clone Repository
-        │
-        ▼
-Install Python
-        │
-        ▼
-Install Requirements
-        │
-        ▼
-Choose a Tool
-        │
-        ▼
-Run Script
-        │
-        ▼
-Learn & Experiment
+This repository is intended for educational and defensive security purposes only.
 
----
-
-🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit your work
-5. Open a Pull Request
-
----
-
-⚠️ Disclaimer
-
-This project is intended strictly for educational, research, and defensive cybersecurity purposes.
-
-Only run these scripts on systems, networks, or accounts that you own or have explicit permission to test.
+Do **NOT** use any script on systems you do not own or have permission to test.
 
 The author assumes no responsibility for misuse.
 
 ---
 
-⭐ Support
+# 🤝 Contributing
 
-If you found this repository useful:
+Contributions are always welcome.
 
-⭐ Star the repository
-
-🍴 Fork it
-
-🛠️ Contribute new tools
-
-📢 Share it with others
+1. Fork
+2. Create a Branch
+3. Commit Changes
+4. Open a Pull Request
 
 ---
 
-<div align="center">Happy Coding! 🚀
+# ⭐ Support
 
-Made with ❤️ for Python developers, students, and cybersecurity enthusiasts.
+If you like this repository:
+
+⭐ Star it
+
+🍴 Fork it
+
+🛠 Contribute
+
+📢 Share it
+
+---
+
+<div align="center">
+
+## Happy Coding 🚀
+
+Made with ❤️ by Lucid Dev
 
 </div>
